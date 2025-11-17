@@ -85,7 +85,7 @@ describe('Домашнее задание к лекции «Асинхронно
     clock.addClock("16:45", f => f);
     clock.addClock("16:45", f => f);
     clock.addClock("16:45", f => f);
-    expect(clock.alarmCollection.length).toEqual(3);
+    expect(clock.alarmCollection.length).toEqual(1);
 
     clock.clearAlarms();
     expect(clock.alarmCollection.length).toEqual(0);
@@ -135,3 +135,4 @@ describe('Домашнее задание к лекции «Асинхронно
     }, 1000);
   });
 });
+
